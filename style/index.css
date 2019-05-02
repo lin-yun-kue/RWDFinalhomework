@@ -1,0 +1,292 @@
+main>.contain {
+    margin-bottom: 50px;
+}
+
+.hr-sect {
+    height: 64px;
+    margin: 0 auto 25px auto;
+    text-align: center;
+    font-size: 1.25em;
+    color: #3D1101;
+    line-height: 32px;
+}
+
+.hr-sect p {
+    display: inline-block;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    background: #979797;
+    ;
+    height: 1px;
+    font-size: 16px;
+    margin: 24px 16px;
+    display: inline-block;
+    width: 120px;
+}
+
+@media(max-width: 767px) {
+    .hr-sect {
+        margin-bottom: 31px;
+    }
+
+    .hr-sect::before,
+    .hr-sect::after {
+        display: none;
+    }
+}
+
+.intro-block {
+    color: #3D1101;
+    width: 32%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 1%;
+    margin-right: -4px;
+}
+
+.intro-block img {
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.intro-block h3 {
+    font-size: 1.125em;
+    margin-bottom: 11px;
+}
+
+.intro-block p {
+    font-size: 1em;
+    max-width: 260px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 auto;
+}
+
+@media(max-width: 767px) {
+    .intro-block {
+        width: 80%;
+        margin: 0 auto 30px auto;
+        display: block;
+    }
+}
+
+.chef-sect {
+    margin-bottom: 50px;
+    background-color: #3D1101;
+    color: white;
+    overflow: hidden;
+}
+
+.chef-sect .contain::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.chef-img {
+    max-width: 47%;
+    height: 460px;
+    float: left;
+}
+
+@media(max-width: 767px) {
+    .chef-img {
+        max-width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.description {
+    float: left;
+    max-width: 41%;
+    margin: 60px 7% 0 4%;
+}
+
+.description h3 {
+    font-size: 1.25em;
+    color: #EFE9E7;
+    line-height: 32px;
+}
+
+.description h4 {
+    font-size: 1em;
+    color: #EFE9E7;
+    margin-bottom: 16px;
+}
+
+.description p {
+    color: #EFE9E7;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+@media(max-width: 768px) {
+    .description {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .description p {
+        line-height: 1.2;
+    }
+}
+
+@media(max-width: 767px) {
+    .description {
+        max-width: 100%;
+        display: block;
+        float: none;
+        margin: 30px;
+    }
+}
+
+.recmd-title {
+    font-size: 24px;
+    color: #3D1101;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.recmd-sect {
+    padding-bottom: 50px;
+}
+
+.recmd-block {
+    color: #3D1101;
+    width: 31%;
+    display: inline-block;
+    margin: 0 1%;
+    margin-right: -4px;
+}
+
+.recmd-block img {
+    max-width: 67px;
+    max-height: 67px;
+    border-radius: 50%;
+    float: left;
+}
+
+.recmd-block h4 {
+    font-size: 1.125em;
+    margin: 22px 0;
+    text-indent: 13px;
+}
+
+.recmd-block p {
+    margin-left: 80px;
+    max-width: 220px;
+    line-height: 1.5;
+}
+
+.recmd-block .title {
+    font-size: 16px;
+    color: rgba(61, 17, 0, 0.75);
+    line-height: 24px;
+    text-align: right;
+    margin-top: 16px;
+}
+
+@media(max-width: 767px) {
+    .recmd-block {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+.reserve-sect {
+    padding-top: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.reserve-sect .contain::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.reserve-title {
+    font-size: 24px;
+    color: #3D1101;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.reserve-sect img {
+    max-width: 46%;
+    max-height: 390px;
+    float: left;
+}
+
+@media(max-width: 767px) {
+    .reserve-sect img {
+        max-width: 90%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
+.form-reserve {
+    width: 46%;
+    float: left;
+    margin-left: 2%;
+}
+
+.form-reserve input[type=text],
+.form-reserve input[type=tel],
+.form-reserve input[type=number],
+.form-reserve input[type=mail] {
+    width: 100%;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+}
+
+.form-reserve .row {
+    margin-bottom: 12px;
+}
+
+.form-reserve .row label {
+    font-size: 0.875em;
+    color: #3D1101;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.form-reserve .button {
+    float: right;
+}
+
+@media(max-width: 767px) {
+    .form-reserve {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+.button .cancel {
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+}
+
+.button .confirm {
+    background: #F56C23;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
