@@ -19,7 +19,7 @@ aside {
 }
 @media(min-width: 768px) {
     aside {
-        width: 22%;
+        width: 23%;
         margin-right: 2%;
         margin-left: 4%;
     }
@@ -59,7 +59,7 @@ aside {
 }
 @media(min-width: 768px) {
     .products {
-        max-width: 68%;
+        max-width: 67%;
         margin-right: 4%;
     }
 }
